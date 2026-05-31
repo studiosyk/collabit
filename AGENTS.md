@@ -25,12 +25,13 @@
 2. `.domain_context.md`
 3. `core/README.md`
 4. `core/writing/README.md`
-5. `core/writing_guide/regulation.md`
-6. `core/writing_guide/tone_and_manner.md`
-7. `core/writing_guide/wordlist.md`
-8. `core/writing_guide/director_feedback.md`
-9. `core/design_guide/design_system.md`
-10. 対象記事フォルダの `brief.md`
+5. `core/writing/★執筆ワークフロー.md`
+6. `core/writing_guide/regulation.md`
+7. `core/writing_guide/tone_and_manner.md`
+8. `core/writing_guide/wordlist.md`
+9. `core/writing_guide/director_feedback.md`
+10. `core/design_guide/design_system.md`
+11. 対象記事フォルダの `brief.md`
 
 ## Working Scope
 
@@ -44,7 +45,7 @@
 - 記事フォルダ名は `yymmdd_title` 形式を基本にする
 - ステータスは `1_stock` → `2_in_progress` → `3_review` → `4_published` の順に進める
 - 使わなくなった記事や旧版は `5_archive` に移す
-- `1_stock` 内の `.md` を指定して「作業開始」と依頼された場合は、`_templates/yymmdd_template` を複製して `2_in_progress` に記事フォルダを作成し、対象の原稿 `.md` をその中へ移動して着手状態にする
+- `1_stock` 内の構成案 `.md` をメンションしたうえで「執筆作業開始」と依頼された場合のみ、`_templates/yymmdd_template` を複製して `2_in_progress` に記事フォルダを作成し、対象の構成案をその中へ移動したうえで、記事制作フロー 2〜5 まで進める
 - あとで確認したい箇所は、原稿中でピンクマーカーを付けて明示する
 - CTA画像は使わない。過去記事にCTA画像があっても、新規記事・更新記事では画像CTAへ戻さない
 - 原稿中のCTAは必ず `<mark style="background-color: #ffcccc;">CTA</mark>` と赤マーカー文字で位置だけ示す
@@ -53,88 +54,19 @@
 - 執筆者側の参考メモは `参照記事：` として `research.md` や `log.md` に残し、本文中には原則出さない
 - 官公庁、法令、統計、一次情報など本文の根拠元を示す場合は `出典：` と表記する
 
-## Article Workflow
+## 執筆ワークフロー
 
-`1_stock` にある記事案から着手するときは、次の順で作業を始めます。
+記事制作の具体的な手順は `core/writing/★執筆ワークフロー.md` に従う。
 
-1. 対象の `.md` を特定する
-2. `2_in_progress` に `yymmdd_title` 形式の記事フォルダを作る
-3. `_templates/yymmdd_template` をその記事フォルダとして複製する
-4. 元の原稿 `.md` を `1_stock` から新しい記事フォルダ内へ移動する
-5. 以後の執筆、調査、進行管理はその記事フォルダ内で行う
-
-記事制作は、原則として次の流れで進めます。
-
-1. 原稿を受領する
-   - ディレクター指示、元原稿、補足資料を確認する
-2. 構成案の解釈と前提整理をする
-   - 原稿を通読する
-   - 見出しと中身の整合性を確認する
-   - 粒度のズレ、唐突さ、偏りを確認する
-   - この記事で何を解決するのかを整理する
-   - 構成の順番と役割を確認する
-   - JOB理論目線のアプローチを入れられるか検討する
-3. 不明点を洗い出し、先に解消する
-   - 気になる点、矛盾しそうな点を洗い出す
-   - 他記事との役割分担を確認する
-   - 必要に応じて先に質問し、疑問を解消しておく
-4. 迷子防止アンカーを置く
-   - 指示内容を `brief.md` に書く
-   - 記事の軸、やらないこと、注意点を `brief.md` や Notion に残す
-5. リサーチ設計をする
-   - 何を調べれば書けるかを整理する
-   - どこまで調べるか、何を関連記事へ逃がすかを決める
-6. リサーチと一次ファクト確認をする
-   - 不足情報の調査
-   - 数値、制度、表現の確認
-   - HowMa機能や関連記事との整合を確認する
-7. 本文用図版、説明画像を設計する
-   - まず必要箇所を判断してラフ設計を行う
-   - 図にするべき箇所と文章で済ませる箇所を分ける
-8. 本文を設計、執筆する
-   - H3本文を書く
-   - H3タイトルを整える
-   - H2リードを書く
-   - H2タイトルを整える
-   - まとめを書く
-   - 導入リードを書く
-   - 導入リードを再確認する
-9. 本文用図版、説明画像を仕上げる
-   - 本文の確定に合わせて内容を詰める
-   - 完成した素材は `assets/description/` に置く
-10. 校正する
-   - 矛盾
-   - 誤字脱字、てにをは
-   - 表記ゆれ
-   - 重複
-   - 論理の流れ
-   - トンマナ
-   - 読者視点のわかりやすさ
-   - CTA接続
-11. ファクトチェックを最終実施する
-   - 執筆後に事実関係をもう一度確認する
-12. サムネイルを制作する
-   - 記事内容と訴求がずれないように整える
-   - 完成した素材は `assets/thumbnail/` に置く
-13. 最終確認をする
-   - 指示反映、CTA、トンマナ、納品状態を確認する
-
-記事フォルダ内の主なファイルは、原則として次の順で使います。
-
-1. `brief.md`
-   - 記事の発注書、設計書、先方ディレクター指示を保存する
-2. `research.md`
-   - 調査メモ、参考情報の要約、論点整理を残す
-3. `outline.md`
-   - 見出し構成と記事全体の流れを整理する
-4. `post-<管理番号>_stepx-x_<短いタイトル>.md`
-   - 記事本体を書く
-   - `draft.md` / `final.md` は使わない
-   - 例: `post-001_step6-2_信頼できる不動産業者を見抜く10のチェックポイント.md`
-
-補足:
-- `log.md` は全工程で使う進行記録ファイルとして、各ステップの途中でも随時更新する
-- `log.md` には、実施内容、未対応事項、次の担当への引き継ぎを残す
+- `1_stock` 内の構成案 `.md` をメンションしたうえで「執筆作業開始」と依頼された場合のみ、同ファイルの「執筆作業開始トリガー」に沿って作業を始める
+- 「執筆作業開始」は、人間が受領データを `core/writing/1_stock/` に保存し、中身を確認して、ディレクター確認などで止める必要がないと判断したあとに実行する
+- 「執筆作業開始」では、初期セットアップ後に記事制作フロー 2〜5（構成案の解釈と前提整理からCTAと図版予定位置の配置まで）を同じ作業ターン内で実施する
+- 記事制作フロー 6 以降は人間とAIの共同作業として進め、7以降は6「人間によるAIライティングの精査作業」が終わってから再開する
+- 作業終了時は、`core/writing/★執筆ワークフロー.md` の「作業終了時の作業報告フロー」に沿って、対象記事フォルダの `log.md` とチャットに同じ作業報告を残す
+- ユーザーが「コラビット終了」と依頼した場合は、スクリプトではなくAIがその時点の作業内容を確認し、作業報告を生成する
+- Notionへ作業報告を残す場合は、まずチャットに作業報告案を出し、ユーザーがOKした後にのみコラビット専用DBへページ追加する
+- 作業前に `core/writing/★執筆ワークフロー.md` を読み、構成案の解釈、`outline.md` への記事の狙い出力、リサーチ、執筆、校正、最終確認までの手順を確認する
+- 初期セットアップは、原則として `scripts/writing/start_writing_article.ps1` を使って半自動化する
 
 ## Asset Rules
 
@@ -150,6 +82,26 @@
 - 元資料そのものは Google Drive に置いてよい
 - ただし、執筆や制作に使う要点はローカルの Markdown に要約して残す
 - 文体、禁止表現、単語ルールは `core/writing_guide/` を優先する
+
+## HowMa Mag Source Maintenance
+
+- 週に一度、HowMaマガジン `/mag/` 配下の公開URL一覧と記事タイトル情報を取得し、前回スナップショットとの差分を確認する
+- サイトマップが使えない場合は、`scripts/howma_mag/update_howma_mag_urls.py` を使い、`https://www.how-ma.com/mag/` と主要カテゴリページを seed URL としてクロールする
+- 実行コマンド例:
+  - `python .\scripts\howma_mag\update_howma_mag_urls.py --date yymmdd --sleep-sec 0`
+- URLスナップショット、差分CSV、実行ログは `core/_routine_定常作業/howma_mag_sources/抽出作業_yymmdd/python_outputs/` に保存する
+  - `howma_mag_yymmdd_article_like_clean.csv`: 現在の記事URL一覧
+  - `howma_mag_yymmdd_article_metadata.csv`: 現在の記事URL、`title`、`h1`、`meta_description`
+  - `diff/howma_mag_yymmdd_added.csv`: 前回から増えたURL
+  - `diff/howma_mag_yymmdd_removed.csv`: 前回から消えたURL
+  - `diff/howma_mag_yymmdd_changed.csv`: 前回から `title` または `h1` が変わったURL
+  - `diff/howma_mag_yymmdd_summary.csv`: 件数サマリー
+- `howma_mag_yymmdd_run.log`: クロールと差分作成の作業ログ
+- `title` / `h1` の変更は、URLが同じ記事について前回CSVと今回CSVの値を比較して判定する。本文差分そのものはこの定常作業では判定しない
+- 必要に応じて `scripts/howma_mag/extend_article_metadata_csv.py` で `category` / `slug` を付与する
+- 追加URLの記事本文をローカル参照用Markdownにする場合は、人間が `added` / `removed` / `changed` の件数と中身を確認してGOしたあと、`scripts/howma_mag/export_added_articles_to_md.py` を使い、`core/_routine_定常作業/howma_mag_sources/抽出作業_yymmdd/python_outputs/md_added_yymmdd/` に一時出力し、執筆用コピーを `core/writing/_assets/記事ソース_yymmdd/md_added/` に保存する
+- 全URLをMarkdown化する必要がある場合のみ、`scripts/howma_mag/export_postcontents_to_md.py` を使う
+- 取得した記事本文Markdownは、執筆時の参照資料として使い、本文へ引用・転載しすぎない。本文中の読者向けリンクは `関連記事：`、調査メモ内の参照は `参照記事：` として扱う
 
 ## Tooling Rules
 

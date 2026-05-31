@@ -1,1 +1,7 @@
 core/writing/_local_img/
+
+# Generated HowMa article body markdown files can grow quickly.
+core/_routine_定常作業/howma_mag_sources/抽出作業_*/python_outputs/md_added_*/
+core/writing/_assets/記事ソース_*/md_added/
+core/_routine_定常作業/howma_mag_sources/抽出作業_*/python_outputs/md_article_*/
+core/writing/_assets/記事ソース_*/md_all/
