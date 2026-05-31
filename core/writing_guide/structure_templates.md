@@ -15,3 +15,5 @@
 3. サービスの特徴
 4. 導入メリット
 5. CTA
+
+CTAは画像ではなく、原稿上では `<mark style="background-color: #ffcccc;">CTA</mark>` の赤マーカー文字で位置だけ示す。

@@ -9,8 +9,7 @@ yymmdd_template/
 ├── brief.md
 ├── research.md
 ├── outline.md
-├── draft.md
-├── final.md
+├── post-001_stepx-x_title.md
 ├── log.md
 └── assets/
     ├── thumbnail/

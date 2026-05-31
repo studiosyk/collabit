@@ -1,16 +1,17 @@
-# yymmdd template
+# Step3-3 売却？賃貸？それぞれのメリット・デメリットを徹底比較
 
-このフォルダを複製して、新しい記事フォルダのたたき台として使います。
+## Status
+
+- 現在地: `4_published`
 
 ## Structure
 
 ```text
-yymmdd_template/
+.
 ├── brief.md
 ├── research.md
 ├── outline.md
-├── draft.md
-├── final.md
+├── post-260504_step3-3_売却か賃貸かそれぞれのメリットデメリットを徹底比較.md
 ├── log.md
 └── assets/
     ├── thumbnail/
