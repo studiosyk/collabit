@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="1390" viewBox="0 0 1760 1390" role="img" aria-labelledby="title desc">
+  <title id="title">不動産会社を見極める10のチェックポイント</title>
+  <desc id="desc">会社を見る6項目と担当者を見る4項目を、Step6-1と同じカード型で整理した図版</desc>
+  <defs>
+    <style>
+      .page { fill: #f7f5f8; }
+      .panel { fill: #fff; stroke: #3989c8; stroke-width: 3; }
+      .blue { fill: #3989c8; }
+      .dark { fill: #111936; }
+      .dash { stroke: #3989c8; stroke-width: 3; stroke-dasharray: 4 8; }
+      .title,
+      .headline,
+      .cardLabel,
+      .cardMain,
+      .bullet,
+      .point {
+        font-family: "Yu Gothic", "Hiragino Sans", "Noto Sans JP", sans-serif;
+        font-weight: 700;
+      }
+      .title { fill: #fff; font-size: 40px; letter-spacing: .02em; }
+      .headline { fill: #111936; font-size: 48px; letter-spacing: .01em; }
+      .cardLabel { fill: #fff; font-size: 42px; letter-spacing: .03em; }
+      .cardMain { fill: #111936; font-size: 44px; }
+      .bullet { fill: #111936; font-size: 34px; }
+      .pointLabel { fill: #fff; font-size: 30px; font-family: Georgia, "Times New Roman", serif; font-weight: 700; }
+      .point { fill: #111936; font-size: 34px; }
+    </style>
+  </defs>
+
+  <rect class="page" width="1760" height="1390"/>
+
+  <rect class="panel" x="56" y="76" width="1648" height="1258" rx="30"/>
+  <path class="blue" d="M56 76h710c18 0 42 20 42 40v38c0 20-24 40-42 40H56z"/>
+  <text class="title" x="98" y="143">不動産会社を見極める10のチェックポイント</text>
+
+  <text class="headline" x="880" y="274" text-anchor="middle">査定額だけで決めず、質問への答え方で見極める</text>
+
+  <g>
+    <rect class="panel" x="112" y="356" width="730" height="760" rx="28"/>
+    <path class="blue" d="M112 356h346c18 0 38 19 38 38v40c0 19-20 38-38 38H112z"/>
+    <text class="cardLabel" x="150" y="431">会社を見る6項目</text>
+
+    <text class="cardMain" x="150" y="584">
+      <tspan x="150" dy="0">「任せる価値がある会社か」</tspan>
+      <tspan x="150" dy="58">を確認する</tspan>
+    </text>
+
+    <line class="dash" x1="146" y1="692" x2="808" y2="692"/>
+
+    <text class="bullet" x="150" y="776">
+      <tspan x="150" dy="0">・売買が得意か</tspan>
+      <tspan x="150" dy="58">・得意エリアか</tspan>
+      <tspan x="150" dy="58">・選択肢があるか</tspan>
+      <tspan x="150" dy="58">・宣伝方法が具体的か</tspan>
+      <tspan x="150" dy="58">・トラブル予防を説明できるか</tspan>
+      <tspan x="150" dy="58">・評判が極端に悪くないか</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect class="panel" x="918" y="356" width="730" height="760" rx="28"/>
+    <path class="blue" d="M918 356h386c18 0 38 19 38 38v40c0 19-20 38-38 38H918z"/>
+    <text class="cardLabel" x="956" y="431">担当者を見る4項目</text>
+
+    <text class="cardMain" x="956" y="584">
+      <tspan x="956" dy="0">「この人に任せて大丈夫か」</tspan>
+      <tspan x="956" dy="58">を確認する</tspan>
+    </text>
+
+    <line class="dash" x1="952" y1="692" x2="1614" y2="692"/>
+
+    <text class="bullet" x="956" y="802">
+      <tspan x="956" dy="0">・近いケースの経験があるか</tspan>
+      <tspan x="956" dy="72">・説明が分かりやすいか</tspan>
+      <tspan x="956" dy="72">・レスポンスと約束が正確か</tspan>
+      <tspan x="956" dy="72">・売れない場合も話せるか</tspan>
+    </text>
+  </g>
+
+  <g>
+    <path class="blue" d="M116 1184h122c18 0 38 18 38 38v12c0 20-20 38-38 38H116z"/>
+    <text class="pointLabel" x="177" y="1239" text-anchor="middle">POINT</text>
+    <rect class="panel" x="106" y="1224" width="1550" height="104" rx="52"/>
+    <text class="point" x="880" y="1290" text-anchor="middle">質問への答え方と説明の具体性を比べて、任せる1社を選ぼう</text>
+  </g>
+</svg>

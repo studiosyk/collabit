@@ -13,8 +13,7 @@
 ├── brief.md
 ├── research.md
 ├── outline.md
-├── draft.md
-├── final.md
+├── post-260514_step6-2_失敗しない！信頼できる不動産業者を見抜く10のチェックポイント.md
 ├── log.md
 ├── assets/
 │   ├── description/
